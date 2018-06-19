@@ -23,7 +23,8 @@ end
 
 
 def self.artist_count
-  histogram = hash.new {|artists,count| @@artists[@@artists.length]}
+  artist_count.new = {}
+
 end
 
 def self.genre_count
