@@ -24,10 +24,11 @@ end
 
 def self.artist_count
   artist_count = {}
-  if !artist_count[@@artists]
-      artist_count[@@artists] = 1
-    end
-    artist_count[@@artists] += 1
+  @@genres.each do |artist,count|
+    if !artist_count[artist]
+    artist_count[artist] = 1
+  else
+    artist_count[artist] += 1
   end
 end
 
