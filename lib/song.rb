@@ -35,5 +35,3 @@ end
 #def self.genre_count
   #(bins,freqs) = @@genres.histogram
 #end
-
-end
