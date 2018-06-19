@@ -25,8 +25,8 @@ end
 
 def self.genre_count
   genre_count = {}
-    binding.pry
   @@genres.each do |genre,count|
+    binding.pry
     if !genre_count[genre]
       genre[count] = 1
     else
