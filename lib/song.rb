@@ -1,3 +1,4 @@
+require 'histogram/array'
 class Song
   attr_accessor :name,:artist,:genre
   @@count = 0
