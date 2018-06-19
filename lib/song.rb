@@ -27,6 +27,7 @@ def self.artist_count
 end
 
 def self.genre_count
+  (@@genres,freq) = data.histogram
 end
 
 end
