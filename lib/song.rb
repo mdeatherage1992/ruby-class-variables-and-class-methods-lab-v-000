@@ -23,7 +23,7 @@ end
 
 
 def self.artist_count
-  (bins,freqs) = @@artists.histogram
+  histogram = hash.new {|artists,count| @@artists[@@artists.length]}
 end
 
 def self.genre_count
