@@ -22,7 +22,7 @@ def self.artists
 end
 
 
-def self.artist_count
+def self.genre_count
   genre_count = {}
   @@genres.each do |artist,count|
     if !artist_count[artist]
