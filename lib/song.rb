@@ -30,10 +30,10 @@ def self.artist_count
     artist_count[@@artist] += 1
   end
 end
-end
 
-def self.genre_count
-  (bins,freqs) = @@genres.histogram
-end
+
+#def self.genre_count
+  #(bins,freqs) = @@genres.histogram
+#end
 
 end
