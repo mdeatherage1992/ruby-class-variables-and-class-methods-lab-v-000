@@ -26,7 +26,6 @@ def self.artist_count
   artists = {}
   artists.merge!(@@artists,@@artists.uniq.length)
   return artists
-
 end
 
 def self.genre_count
