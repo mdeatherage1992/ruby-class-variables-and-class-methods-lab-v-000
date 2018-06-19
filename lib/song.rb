@@ -22,11 +22,11 @@ def self.artists
 end
 
 
-def artist_count
+def self.artist_count
   (@@artists,freq) = data.histogram
 end
 
-def genre_count
+def self.genre_count
 end
 
 end
