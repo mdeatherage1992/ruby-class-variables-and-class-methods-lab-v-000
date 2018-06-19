@@ -25,7 +25,7 @@ end
 def self.artist_count
   data = @@artists
   (bins,freqs) = data.histogram
-  return artists
+  return data.histogram
 end
 
 def self.genre_count
