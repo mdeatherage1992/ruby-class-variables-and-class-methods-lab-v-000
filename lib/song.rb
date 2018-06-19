@@ -15,11 +15,11 @@ def self.count
    @@count
  end
  def self.genre
-   @@genres
+   @@genres.uniq
  end
 def self.artists
-  @@artists
-
+  @@artists.uniq
+end
 
 
 end
