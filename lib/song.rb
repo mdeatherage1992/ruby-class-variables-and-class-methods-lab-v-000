@@ -24,8 +24,7 @@ end
 
 def self.artist_count
   artist_count = {}
-  @@artists.each do |count|
-  artist_count[@@artists] = count
+  artist_count[@@artists.uniq] = @@artists.uniq.length 
   return artist_count
 end
 end
