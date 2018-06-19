@@ -24,8 +24,8 @@ end
 
 def self.genre_count
   genre_count = {}
-  @@genres.each do |artist,count|
-    if !genre_count[artist]
+  @@genres.each do |count|
+    if !genre_count[count]
     genre_count[artist] = 1
   else
     genre_count[artist] += 1
