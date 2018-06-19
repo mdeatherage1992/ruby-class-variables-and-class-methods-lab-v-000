@@ -23,8 +23,9 @@ end
 
 
 def self.artist_count
-  @@artists = {}
-  @@artists[@@artists] = @@artists.length
+  artists = {}
+  artists.merge!(@@artists,@@artists.uniq.length)
+
 end
 
 def self.genre_count
