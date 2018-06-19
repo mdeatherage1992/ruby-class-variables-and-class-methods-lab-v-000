@@ -24,7 +24,7 @@ end
 
 def self.artist_count
   artist_count.new = {}
-
+  artist_count[@@artists] = @@artists.length
 end
 
 def self.genre_count
