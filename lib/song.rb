@@ -22,4 +22,10 @@ def self.artists
 end
 
 
+def artist_count
+end
+
+def genre_count  
+end
+
 end
