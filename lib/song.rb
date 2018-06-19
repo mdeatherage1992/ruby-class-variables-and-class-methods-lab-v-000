@@ -23,9 +23,12 @@ end
 
 
 def self.artist_count
-  data = @@artists
-  (bins,freqs) = data.histogram
-  return data.histogram
+  artist_count = {}
+  if !artist_count[@@artist]
+      artist_count[@@artist] = 1
+    end
+    roster[grade] += 1
+  end
 end
 
 def self.genre_count
