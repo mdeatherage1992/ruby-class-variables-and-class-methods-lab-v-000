@@ -35,6 +35,8 @@ def self.genre_count
   binding.pry
   return genre_count
 end
+
+
 end
 
 #def self.genre_count
