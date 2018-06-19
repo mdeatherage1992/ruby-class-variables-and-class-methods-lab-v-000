@@ -27,7 +27,7 @@ def self.artist_count
   if !artist_count[@@artist]
       artist_count[@@artist] = 1
     end
-    roster[grade] += 1
+    artist_count[@@artist] += 1
   end
 end
 
