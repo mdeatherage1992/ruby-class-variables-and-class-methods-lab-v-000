@@ -28,6 +28,7 @@ def self.artist_count
   artist_count[@@artists] = count
   return artist_count
 end
+end
 
 def self.genre_count
   (bins,freqs) = @@genres.histogram
