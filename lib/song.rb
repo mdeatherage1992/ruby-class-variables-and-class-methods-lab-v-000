@@ -23,8 +23,8 @@ end
 
 
 def self.artist_count
-  artists = {}
-  artists.merge!(@@artists: @@artists.uniq.length)
+  data = @@artists
+  (bins,freqs) = data.histogram
   return artists
 end
 
