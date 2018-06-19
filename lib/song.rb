@@ -31,6 +31,7 @@ def self.genre_count
       genre[count] += 1
     end
   end
+  return genre_count
 end
 end
 
