@@ -24,15 +24,11 @@ end
 
 def self.genre_count
   genre_count = {}
-  @@genres.each do |count|
-    if !genre_count[count]
-    genre_count[count] = 1
-  else
-    genre_count[count] += 1
-  end
-end
-end
-end
+  @@genres.each do |genre|
+    if !genre
+      genre = 1
+    else
+      genre += 1
 
 #def self.genre_count
   #(bins,freqs) = @@genres.histogram
