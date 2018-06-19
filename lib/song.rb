@@ -35,9 +35,17 @@ def self.genre_count
   return genre_count
 end
 
-
+def self.artist_count
+  artist_count = {}
+  @@artists.each do |artist|
+    if !artist_count[artist]
+      artist_count[artist] = 1
+    else
+      artist_count[artist] += 1
+    end
+  end
+  return artist_count
+end
 end
 
-#def self.genre_count
-  #(bins,freqs) = @@genres.histogram
-#end
+end
