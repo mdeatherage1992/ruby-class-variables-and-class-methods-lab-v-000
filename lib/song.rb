@@ -24,7 +24,7 @@ end
 
 def self.artist_count
   artist_count = {}
-  artist_count[@@artists] = @@artists.length
+  artist_count[@@artists] = @@artists.uniq.length
   return artist_count
 end
 
